@@ -10,6 +10,10 @@ export const router = new VueRouter({
     {
       path: '/',
       component: FontView,
+    },
+    {
+      path: '/fonts',
+      component: FontView,
     }
   ]
 });
